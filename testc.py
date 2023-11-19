@@ -39,18 +39,18 @@ class TestTicTacToe(unittest.TestCase):
         self.game.tic_tac_toe.game_array = [[1, 1, 0],
                                             [0, 1, 0],
                                             [1, 0, 1]]
-        self.game.tic_tac_toe.check_winner()  # Simulate a win
+        self.game.tic_tac_toe.check_winner()  # Simulating a win
         self.game.tic_tac_toe.draw_objects()
-        # Add your assertions based on how the objects are drawn
+        # Assertions based on how the objects are drawn
 
     def test_draw_winner(self):
         # Assuming X wins
         self.game.tic_tac_toe.game_array = [[1, 1, 0],
                                             [0, 1, 0],
                                             [1, 0, 1]]
-        self.game.tic_tac_toe.check_winner()  # Simulate a win
+        self.game.tic_tac_toe.check_winner()  # Simulating a win
         self.game.tic_tac_toe.draw_winner()
-        # Add your assertions based on how the winner is drawn
+        # Assertions based on how the winner is drawn
 
     def test_draw(self):
         # Assuming X wins
@@ -59,14 +59,14 @@ class TestTicTacToe(unittest.TestCase):
                                             [1, 0, 1]]
         self.game.tic_tac_toe.check_winner()  # Simulate a win
         self.game.tic_tac_toe.draw()
-        # Add your assertions based on how the entire screen is drawn
+        # Assertions based on how the entire screen is drawn
 
     def test_get_scaled_image(self):
-        # Add your test cases for the get_scaled_image function
+        # Test cases for the get_scaled_image function
         pass
 
     def test_run(self):
-        # Add your test cases for the run function
+        # Test cases for the run function
         pass
 
 if __name__ == '__main__':
