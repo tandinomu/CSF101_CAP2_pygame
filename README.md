@@ -2,7 +2,7 @@
 
 ## Introduction
 
- There is a board with 3 x 3 squares in this game. The two players take turns putting "x" and "o" on the board. One of the players have to get three same symbols in a row - horizontally, vertically or diagonally on a 3 x 3 board. The player who first gets 3 of his/her symbols (marks) in a row wins the game, and the other loses the game.  
+ There is a board with 3 x 3 squares in this game. Two players take turns putting "x" and "o" on the board. One of the players have to get three same symbols in a row - horizontally, vertically or diagonally on a 3 x 3 board. The player who first gets 3 of his/her symbols (marks) in a row wins the game, and the other loses the game.  
 
 ## Overview
   
